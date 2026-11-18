@@ -19,6 +19,16 @@ int main(){
      printf("%d\n",a[i]);
 
  }
+ printf("normal array\n");
+ for(int i=0; i<5; i++){
+    printf("%d\n", a[i]);
+
+ }
+ printf("Reverse array\n");
+ for(int i=4; i>=0; i--)
+ {
+    printf("%d\n", a[i]);
+ }
  return 0;
 
 }
